@@ -8,6 +8,7 @@
       "go": "1.22.0"
     },
     "schedule": ["every tuesday"],
+    "forkProcessing": "enabled",
     "extends": ["config:recommended"],
     "ignorePaths": [
       "**/receiver/apachesparkreceiver/testdata/integration/Dockerfile.apache-spark",
