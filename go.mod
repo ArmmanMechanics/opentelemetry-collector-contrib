@@ -1,5 +1,6 @@
 module github.com/open-telemetry/opentelemetry-collector-contrib
 
+
 // NOTE:
 // This go.mod is NOT used to build any official binary.
 // To see the builder manifests used for official binaries,
