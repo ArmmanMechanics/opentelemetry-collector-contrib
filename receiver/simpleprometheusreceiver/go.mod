@@ -17,7 +17,7 @@ require (
 	go.opentelemetry.io/collector/receiver v0.114.0
 	go.opentelemetry.io/collector/receiver/receivertest v0.114.0
 	go.uber.org/goleak v1.3.0
-	k8s.io/client-go v0.31.2
+	k8s.io/client-go v0.32.2
 )
 
 require (
