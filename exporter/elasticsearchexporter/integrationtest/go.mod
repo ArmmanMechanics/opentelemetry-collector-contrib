@@ -3,7 +3,7 @@ module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/elasti
 go 1.22.0
 
 require (
-	github.com/elastic/go-docappender/v2 v2.3.0
+	github.com/elastic/go-docappender/v2 v2.6.0
 	github.com/gorilla/mux v1.8.1
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/elasticsearchexporter v0.113.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage/filestorage v0.113.0
@@ -11,7 +11,7 @@ require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/sharedcomponent v0.113.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/testbed v0.113.0
 	github.com/shirou/gopsutil/v4 v4.24.10
-	github.com/stretchr/testify v1.9.0
+	github.com/stretchr/testify v1.10.0
 	go.opentelemetry.io/collector/component v0.114.0
 	go.opentelemetry.io/collector/component/componentstatus v0.114.0
 	go.opentelemetry.io/collector/component/componenttest v0.114.0
@@ -30,7 +30,7 @@ require (
 	go.opentelemetry.io/collector/receiver/otlpreceiver v0.114.0
 	go.opentelemetry.io/collector/receiver/receivertest v0.114.0
 	go.uber.org/zap v1.27.0
-	golang.org/x/sync v0.9.0
+	golang.org/x/sync v0.11.0
 )
 
 require (
@@ -47,7 +47,7 @@ require (
 	github.com/ebitengine/purego v0.8.1 // indirect
 	github.com/elastic/elastic-transport-go/v8 v8.6.0 // indirect
 	github.com/elastic/go-elasticsearch/v7 v7.17.10 // indirect
-	github.com/elastic/go-elasticsearch/v8 v8.15.0 // indirect
+	github.com/elastic/go-elasticsearch/v8 v8.17.0 // indirect
 	github.com/elastic/go-grok v0.3.1 // indirect
 	github.com/elastic/go-structform v0.0.12 // indirect
 	github.com/elastic/go-sysinfo v1.14.0 // indirect
@@ -130,11 +130,11 @@ require (
 	github.com/ua-parser/uap-go v0.0.0-20240611065828-3a4781585db6 // indirect
 	github.com/valyala/fastjson v1.6.4 // indirect
 	github.com/yusufpapurcu/wmi v1.2.4 // indirect
-	go.elastic.co/apm/module/apmelasticsearch/v2 v2.6.0 // indirect
-	go.elastic.co/apm/module/apmhttp/v2 v2.6.0 // indirect
-	go.elastic.co/apm/module/apmzap/v2 v2.6.0 // indirect
-	go.elastic.co/apm/v2 v2.6.0 // indirect
-	go.elastic.co/fastjson v1.3.0 // indirect
+	go.elastic.co/apm/module/apmelasticsearch/v2 v2.6.3 // indirect
+	go.elastic.co/apm/module/apmhttp/v2 v2.6.3 // indirect
+	go.elastic.co/apm/module/apmzap/v2 v2.6.3 // indirect
+	go.elastic.co/apm/v2 v2.6.3 // indirect
+	go.elastic.co/fastjson v1.4.0 // indirect
 	go.etcd.io/bbolt v1.3.11 // indirect
 	go.opencensus.io v0.24.0 // indirect
 	go.opentelemetry.io/collector v0.114.0 // indirect
